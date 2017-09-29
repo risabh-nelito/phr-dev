@@ -288,7 +288,7 @@ router.post('/updateProfile', (req, res) => {
     const rapidID = requestObj.users.rapidID;
     console.log("rapidID",rapidID);
 
-    if(!address||!profileObj){
+    if(!address||!growableObj){
         res.status(400).json({message:"invalid request"})
     }
    
